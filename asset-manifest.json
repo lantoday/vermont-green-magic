@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/vermont-green-magic/static/css/main.073c9b0a.css",
-    "main.js": "/vermont-green-magic/static/js/main.b6aaf5db.js",
+    "main.css": "/vermont-green-magic/static/css/main.fc76c210.css",
+    "main.js": "/vermont-green-magic/static/js/main.59791a46.js",
     "static/js/787.6d6d3683.chunk.js": "/vermont-green-magic/static/js/787.6d6d3683.chunk.js",
-    "static/media/logo.png": "/vermont-green-magic/static/media/logo.638b5dc6cbc3c312e892.png",
     "index.html": "/vermont-green-magic/index.html",
-    "main.073c9b0a.css.map": "/vermont-green-magic/static/css/main.073c9b0a.css.map",
-    "main.b6aaf5db.js.map": "/vermont-green-magic/static/js/main.b6aaf5db.js.map",
+    "main.fc76c210.css.map": "/vermont-green-magic/static/css/main.fc76c210.css.map",
+    "main.59791a46.js.map": "/vermont-green-magic/static/js/main.59791a46.js.map",
     "787.6d6d3683.chunk.js.map": "/vermont-green-magic/static/js/787.6d6d3683.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b6aaf5db.js"
+    "static/css/main.fc76c210.css",
+    "static/js/main.59791a46.js"
   ]
 }
