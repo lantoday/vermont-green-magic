@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.png';
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import HomePageContainer from './pages/HomePageContainer';
+import AboutPageContainer  from './pages/AboutPageContainer';
+import NavbarComponent from './pages/Navbar/NavbarComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Finally it is showing
-        </p>
-        <a
-          className="App-link"
-          href="https://vermontgreenmagic.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vermont Green Magic
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <NavbarComponent />
+        <Routes>
+          <Route path="/" element={<HomePageContainer/>} />
+          <Route path="/about" element={<AboutPageContainer/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
