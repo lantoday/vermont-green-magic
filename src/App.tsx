@@ -3,6 +3,9 @@ import { Route, Routes, HashRouter } from 'react-router-dom';
 import HomePageContainer from './pages/HomePageContainer';
 import AboutPageContainer from './pages/AboutPageContainer';
 import TestimonialsContainer from './pages/TestimonialsContainer';
+import ProductListPageContainer from './pages/ProductListPageContainer';
+import CbdPageContainer from './pages/CbdPageContainer';
+import NutrientPageContainer from './pages/NutrientPageContainer';
 import NavbarComponent from './pages/Navbar/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -15,10 +18,19 @@ function App() {
                 <div className="App">
                     <Routes>
                         <Route path="/" element={<HomePageContainer />} />
-                        <Route path="/about" element={<AboutPageContainer />} />
+                        <Route
+                            path="/productlist"
+                            element={<ProductListPageContainer />}
+                        />
                         <Route
                             path="/testimonials"
                             element={<TestimonialsContainer />}
+                        />
+                        <Route path="/about" element={<AboutPageContainer />} />
+                        <Route path="/cbd" element={<CbdPageContainer />} />
+                        <Route
+                            path="/nutrient-brewing"
+                            element={<NutrientPageContainer />}
                         />
                     </Routes>
                 </div>

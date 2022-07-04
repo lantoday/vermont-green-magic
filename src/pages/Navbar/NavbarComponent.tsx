@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import './NavbarComponent.scss';
 
 function NavbarComponent() {
@@ -22,10 +23,26 @@ function NavbarComponent() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href={baseURL}>Home</Nav.Link>
-                            <Nav.Link href={baseURL + 'about'}>About</Nav.Link>
+                            <Nav.Link href={baseURL + 'productlist'}>
+                                Products
+                            </Nav.Link>
                             <Nav.Link href={baseURL + 'testimonials'}>
                                 Testimonials
                             </Nav.Link>
+                            <NavDropdown
+                                title="Education"
+                                id="basic-nav-dropdown"
+                            >
+                                <NavDropdown.Item href={baseURL + 'cbd'}>
+                                    What is CBD?
+                                </NavDropdown.Item>
+                                <NavDropdown.Item
+                                    href={baseURL + 'nutrient-brewing'}
+                                >
+                                    Nutrient Brewing
+                                </NavDropdown.Item>
+                            </NavDropdown>
+                            <Nav.Link href={baseURL + 'about'}>About</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
