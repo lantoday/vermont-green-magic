@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import { Route, Routes, HashRouter} from "react-router-dom";
 import HomePageContainer from './pages/HomePageContainer';
 import AboutPageContainer  from './pages/AboutPageContainer';
 import NavbarComponent from './pages/Navbar/NavbarComponent';
@@ -9,13 +9,15 @@ import './App.css';
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/varmont-green-magic">
+      <HashRouter>
         <NavbarComponent />
-        <Routes>
-          <Route path="/" element={<HomePageContainer/>} />
-          <Route path="/about" element={<AboutPageContainer/>} />
-        </Routes>
-      </BrowserRouter>
+        <div className="App">
+          <Routes>
+            <Route path="/" element={<HomePageContainer/>} />
+            <Route path="/about" element={<AboutPageContainer/>} />
+          </Routes>
+        </div>       
+      </HashRouter>
     </div>
   );
 }
