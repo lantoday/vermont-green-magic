@@ -1,4 +1,4 @@
-import { AboutPageComponent } from './AboutPage/AboutPageComponent';
+import { AboutPageComponent } from "./AboutPage/AboutPageComponent";
 
 function HomePageContainer() {
   return (

@@ -1,4 +1,4 @@
-import { HomePageComponent } from './HomePage/HomePageComponent';
+import { HomePageComponent } from "./HomePage/HomePageComponent";
 
 function HomePageContainer() {
   return (
