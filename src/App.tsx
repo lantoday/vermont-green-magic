@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/varmont-green-magic">
         <NavbarComponent />
         <Routes>
           <Route path="/" element={<HomePageContainer/>} />
