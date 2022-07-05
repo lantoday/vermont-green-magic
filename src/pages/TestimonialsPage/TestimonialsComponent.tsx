@@ -4,22 +4,22 @@ import sara02 from '../../images/testimonials/sara02.png';
 import threeTests from '../../images/testimonials/tests.png';
 import ginny from '../../images/testimonials/ginny.png';
 import kysa from '../../images/testimonials/kysa.png';
-import { FooterComponent } from '../../shared/Footer/FooterComponent';
 import './TestimonialsComponent.scss';
 
 export const TestimonialsComponent: React.FC = () => (
     <>
         <p className="testimonials_title">Testimonials</p>
-        <div className="testimonials_container">
+        <div>
             {/* Sara M. */}
             <img
                 src={sara01}
                 alt="Sara M's comment"
-                className="image_comment"
+                className="w-100 p-2"
             ></img>
-
-            <p className="story_title">Sara M.’s Amazing Story</p>
-            <div className="story_container">
+            <p className="mt-4 fs-lg fw-bold d-flex justify-content-center">
+                Sara M.’s Amazing Story
+            </p>
+            <div className="mw-100 p-2">
                 <p className="text-start lh-lg fs-5">
                     Sara M. from Massachusetts bought our Vermont Green Magic
                     CBD oil for her dog Sam, a German Shepherd with hip
@@ -64,24 +64,29 @@ export const TestimonialsComponent: React.FC = () => (
                     blessed.”
                 </p>
                 <br />
-                <img
-                    src={sara02}
-                    alt="Sara M' and her dog"
-                    className="image_dog"
-                ></img>
-                <p>Sara M. with her dog Sam</p>
+                <div className="d-flex justify-content-center">
+                    <img
+                        src={sara02}
+                        alt="Sara M' and her dog"
+                        className="w-75 p-3"
+                    ></img>
+                </div>
+
+                <p className="d-flex justify-content-center">
+                    Sara M. with her dog Sam
+                </p>
             </div>
             <br />
             {/* Three tests */}
             <img
                 src={threeTests}
                 alt="Sara M's comment"
-                className="image_comment"
+                className="w-100 p-2"
             ></img>
             <br />
             <br />
             <br />
-            <div className="story_container">
+            <div className="mw-100 p-2">
                 <p className="text-start lh-lg fs-5">
                     Johnathan C. in California had been battling Parkinson’s
                     disease for several years, before he discovered CBD. He
@@ -100,15 +105,11 @@ export const TestimonialsComponent: React.FC = () => (
             </div>
             {/* Ginny R. */}
             <br />
-            <img
-                src={ginny}
-                alt="Sara M's comment"
-                className="image_comment"
-            ></img>
+            <img src={ginny} alt="Sara M's comment" className="w-100 p-2"></img>
             <br />
             <br />
             <br />
-            <div className="story_container">
+            <div className="mw-100 p-2">
                 <p className="text-start lh-lg fs-5">
                     From customer Jeff L. in Connecticut:
                 </p>
@@ -128,12 +129,7 @@ export const TestimonialsComponent: React.FC = () => (
             </div>
             {/* Kysa D. */}
             <br />
-            <img
-                src={kysa}
-                alt="Sara M's comment"
-                className="image_comment"
-            ></img>
-            <FooterComponent />
+            <img src={kysa} alt="Sara M's comment" className="w-100 p-2"></img>
         </div>
     </>
 );

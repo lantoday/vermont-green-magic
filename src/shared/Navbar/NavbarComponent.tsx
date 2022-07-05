@@ -30,7 +30,7 @@ function NavbarComponent() {
                                 Testimonials
                             </Nav.Link>
                             <NavDropdown
-                                title="Education"
+                                title="Information"
                                 id="basic-nav-dropdown"
                             >
                                 <NavDropdown.Item href={baseURL + 'cbd'}>

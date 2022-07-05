@@ -8,14 +8,14 @@ import CbdPageContainer from './pages/CbdPageContainer';
 import NutrientPageContainer from './pages/NutrientPageContainer';
 import NavbarComponent from './shared/Navbar/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 
 function App() {
     return (
         <div>
             <HashRouter>
                 <NavbarComponent />
-                <div className="App">
+                <div className="app_container">
                     <Routes>
                         <Route path="/" element={<HomePageContainer />} />
                         <Route
