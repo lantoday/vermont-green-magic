@@ -6,7 +6,7 @@ import TestimonialsContainer from './pages/TestimonialsContainer';
 import ProductListPageContainer from './pages/ProductListPageContainer';
 import CbdPageContainer from './pages/CbdPageContainer';
 import NutrientPageContainer from './pages/NutrientPageContainer';
-import NavbarComponent from './pages/Navbar/NavbarComponent';
+import NavbarComponent from './shared/Navbar/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 

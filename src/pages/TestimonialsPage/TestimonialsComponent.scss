@@ -1,11 +1,35 @@
 
+@import '../../variables';
+
 .testimonials_container{
-    max-width: 80%;
-    margin: 0 auto;
+    @media (max-width: $screen-md) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    @media (min-width: $screen-md) {
+        width: 70%;
+        margin: 0 auto;
+        box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(201, 206, 211, 0.8), -12px 0 15px -4px rgba(201, 206, 211, 0.8);
+    }
+}
+
+.testimonials_title{
+    font-weight: bold;
+    margin-top: 1rem;
+
+    @media (max-width: $screen-md) {
+        font-size: 26px;       
+    }
+
+    @media (min-width: $screen-md) {
+        font-size: 48px;
+    }
 }
 
 .image_comment{
     width: 100%;
+    padding: 8px;
 }
 
 .image_dog{

@@ -8,7 +8,7 @@ import './TestimonialsComponent.scss';
 
 export const TestimonialsComponent: React.FC = () => (
     <>
-        <h1>Testimonials</h1>
+        <p className="testimonials_title">Testimonials</p>
         <div className="testimonials_container">
             {/* Sara M. */}
             <img
@@ -19,7 +19,7 @@ export const TestimonialsComponent: React.FC = () => (
 
             <p className="story_title">Sara M.’s Amazing Story</p>
             <div className="story_container">
-                <p className="text-start">
+                <p className="text-start lh-lg fs-5">
                     Sara M. from Massachusetts bought our Vermont Green Magic
                     CBD oil for her dog Sam, a German Shepherd with hip
                     dysplasia. She found that the oil helped make his back legs
@@ -32,14 +32,14 @@ export const TestimonialsComponent: React.FC = () => (
                     better, but her knees aren’t cramping painfully any longer.
                 </p>
                 <br />
-                <p className="text-start">
+                <p className="text-start lh-lg fs-5">
                     Sara was so impressed that she wanted her aunt and uncle to
                     try our oil drops too. After explaining to them what CBD is
                     all about, Sara gave them a bottle of Vermont Green Magic’s
                     Therapeutic Oil Drops. This is what she wrote to us:
                 </p>
                 <br />
-                <p className="text-start fw-bold">
+                <p className="text-start fw-bold lh-lg fs-5">
                     “I wanted you to know that my aunt and uncle are now huge
                     believers! My uncle is in his 70’s and is feeling and doing
                     things like Father Time has turned back the clocks! He first
@@ -54,7 +54,7 @@ export const TestimonialsComponent: React.FC = () => (
                     to see!”
                 </p>
                 <br />
-                <p className="text-start fw-bold">
+                <p className="text-start fw-bold lh-lg fs-5">
                     “My aunt has terrible arthritis and back pain and the oil
                     also helps her a great deal. Her friend tried it and wants
                     to order a bottle too. We can never thank you enough! You
@@ -81,7 +81,7 @@ export const TestimonialsComponent: React.FC = () => (
             <br />
             <br />
             <div className="story_container">
-                <p className="text-start">
+                <p className="text-start lh-lg fs-5">
                     Johnathan C. in California had been battling Parkinson’s
                     disease for several years, before he discovered CBD. He
                     brought a bottle of Vermont Green Magic Therapeutic Oil to
@@ -89,7 +89,7 @@ export const TestimonialsComponent: React.FC = () => (
                     to us after his appointment:
                 </p>
                 <br />
-                <p className="text-start fw-bold">
+                <p className="text-start fw-bold lh-lg fs-5">
                     “I just wanted to let you know that I took the double
                     strength bottle to be tested by the doctor who does my stem
                     cell treatments. She has a special device that she uses to
@@ -108,11 +108,11 @@ export const TestimonialsComponent: React.FC = () => (
             <br />
             <br />
             <div className="story_container">
-                <p className="text-start">
+                <p className="text-start lh-lg fs-5">
                     From customer Jeff L. in Connecticut:
                 </p>
                 <br />
-                <p className="text-start fw-bold">
+                <p className="text-start fw-bold lh-lg fs-5">
                     “My wife and I have been aware of the many benefits of CBD
                     oil for quite some time. In fact, our principal care
                     physician endorsed its use for the treatment of chronic
