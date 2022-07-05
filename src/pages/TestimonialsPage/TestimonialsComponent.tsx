@@ -4,6 +4,7 @@ import sara02 from '../../images/testimonials/sara02.png';
 import threeTests from '../../images/testimonials/tests.png';
 import ginny from '../../images/testimonials/ginny.png';
 import kysa from '../../images/testimonials/kysa.png';
+import { FooterComponent } from '../../shared/Footer/FooterComponent';
 import './TestimonialsComponent.scss';
 
 export const TestimonialsComponent: React.FC = () => (
@@ -132,6 +133,7 @@ export const TestimonialsComponent: React.FC = () => (
                 alt="Sara M's comment"
                 className="image_comment"
             ></img>
+            <FooterComponent />
         </div>
     </>
 );

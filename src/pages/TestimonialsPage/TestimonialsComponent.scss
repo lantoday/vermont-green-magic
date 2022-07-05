@@ -4,12 +4,12 @@
 .testimonials_container{
     @media (max-width: $screen-md) {
         width: 100%;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 
     @media (min-width: $screen-md) {
         width: 70%;
-        margin: 0 auto;
+        margin: 1rem auto;
         box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 15px -4px rgba(201, 206, 211, 0.8), -12px 0 15px -4px rgba(201, 206, 211, 0.8);
     }
 }
