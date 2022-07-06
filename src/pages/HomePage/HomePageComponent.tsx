@@ -4,6 +4,7 @@ import heading01 from '../../images/homepage/heading1.png';
 import heading02 from '../../images/homepage/heading2.png';
 import heading03 from '../../images/homepage/heading3.png';
 import heading04 from '../../images/homepage/heading4.png';
+import heading05 from '../../images/homepage/heading5.png';
 
 export const HomePageComponent: React.FC = () => (
     <>
@@ -55,6 +56,17 @@ export const HomePageComponent: React.FC = () => (
                         minutes the pain is gone and I can go back to bed.”
                         --Don M.
                     </p>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    src={heading05}
+                    alt="How our products been made"
+                />
+
+                <Carousel.Caption>
+                    <h3>Vibrant Plants + Whole Extraction = Living Products</h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
