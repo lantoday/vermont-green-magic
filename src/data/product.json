@@ -1,0 +1,260 @@
+
+// if product counts > 1 show category description and product list, if product counts = 1, show product info and size
+[
+    {
+        "CategoryId": 1001, 
+        "CategoryName": "Salves",
+        "Description": "Vermont Green Magic full-spectrum CBD salves are crafted in very small batches and are hand poured with great care. They contain olive, hempseed, and jojoba oils that all work together to nourish and support skin health. Olive oil has anti-inflammatory, antioxidant, and emollient properties and is rich in vitamins. Hempseed oil is rich in Omegas 3, 6, and 9, and helps soothe and hydrate the skin in addition to aiding the process of repairing skin barriers. Jojoba oil \u2013 the only plant in the world which produces esters that balance the skin\u2019s own sebum cells \u2013 is anti-inflammatory, anti-oxidant, and protects against UV damage. Our salves nourish the skin and moisturize without being waxy or greasy.\r\n\r\nOur salves are micro-crafted with essential oils, all carefully chosen so that each salve has its own distinctive focus.\r\n\r\nBy themselves, essential oils can be powerful healers with complex molecular structures, but when they are used in concert with each other they interact synergistically so that the whole becomes much more than the sum of its parts.\r\n\r\nThe combination of unique essential oil blends with our whole-plant CBD-infused oil is a dynamic process which then becomes a dynamic product. And with a truly full-spectrum salve, it isn\u2019t just the CBD cannabinoid acting to provide relief \u2013 it\u2019s that the whole range of cannabinoids is naturally made available to work for the body.  \r\n\r\nMany people need their products to be fragrance-free. If you would like to order a fragrance-free salve, please contact us and we will be happy to ship it. Custom blends upon request! Tell us what you are specifically looking for.",
+        "Image": "",
+        "Items":[
+            {
+                "ProductId": 2001,
+                "ProductName": "Warming Salve",
+                "Description": "Vermont Green Magic\u2019s Regular Strength Warming Salve is packed with circulatory-promoting essential oils of black pepper, ginger, frankincense, and cinnamon to aid in the relief of muscle and joint pain. Black Pepper is energizing and known to promote joint health and reduce muscle tension. Ginger \u2013 traditionally used for promoting circulation \u2013 also helps relieve muscle and joint pain, depression, anxiety, and fatigue. Frankincense and cinnamon oils have both been revered for centuries, and are known to relieve pain, stimulate the immune system, and ease depression, anxiety, and stress. Since first launching it as one of Vermont Green Magic\u2019s inaugural products, the Warming Salve has become a popular seller.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3001,
+                        "Description": "1 oz. Warming Salve - 125 mg CBD"
+                    },
+                    {
+                        "SizeId": 3002,
+                        "Description": "2 oz. Warming Salve - 250 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2002,
+                "ProductName": "Cooling Slave",
+                "Description": "Vermont Green Magic\u2019s original Regular Strength Cooling Salve is designed to help ease away aches, pains, and headaches. It contains a powerhouse blend of essential oils known for their cooling and anti-inflammatory properties:  lavender, rosemary, eucalyptus, and peppermint. Lavender has long been known to help relieve anxiety, stress, headaches, depression, and insomnia. Rosemary is stimulating, energizing, stress relieving, and circulation-promoting. Eucalyptus has traditionally been used for boosting mental clarity, relieving stress, headaches, muscle and joint pain, and as an immune system booster, while peppermint with its anti-inflammatory properties has long been used for relieving muscle and joint pain and headaches. This salve is a great anti-inflammatory choice and has made its way into many of our satisfied patron\u2019s homes across the country.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3003,
+                        "Description": "1 oz. Cooling Salve - 125 mg CBD"
+                    },
+                    {
+                        "SizeId": 3004,
+                        "Description": "2 oz. Cooling Salve - 250 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2003,
+                "ProductName": "Arnica Double Strength Salve",
+                "Description": "Arnica has traditionally been venerated for its deep-healing medicinal properties. Therefore, our Double Strength Arnica Salve is geared towards being used on bumps and bruises, but also works perfectly well as an all-around aches-and-pains salve too. Infused with organic arnica flowers during our long, low-temperature extraction process, the salve also contains powerful anti-inflammatory and pain-relieving peppermint and ylang ylang essential oils. Peppermint \u2013 a known reliever of muscle and joint pain, headaches, and inflammation \u2013 also invigorates, stimulates, and energizes. Ylang ylang too has long been known as an anti-inflammatory pain-reliever, but also as a mood-boosting, calming, and anti-depressant natural remedy. Our Arnica Salve is a great choice for folks who are active, or who just plain want to chase those achy blues away!",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3005,
+                        "Description": "1 oz. Arnica Double Strength Salve - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3006,
+                        "Description": "2 oz. Arnica Double Strength Salve - 500 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2004,
+                "ProductName": "Lemon Sunrise Double Strength Salve",
+                "Description": "Greet the day with this sunny, pain-relieving salve! Featuring uplifting notes of lemongrass, lemon, orange, and pine. Lemongrass is known to have anti-inflammatory and pain relieving properties, while also being useful in helping relieve headaches, stress, and anxiety. Lemon is both refreshing and stimulating and is known to relieve pain and reduce anxiety. Sweet orange is heralded as a calming, anti-anxiety, anti-depression, aches-and-pains relieving powerhouse, while pine \u2013 renowned as a remarkable skin tonic \u2013 is also used to relieve stress, arthritis, muscle pain, and inflammation. Help brighten and ease the body and spirit with our Double Strength CBD Lemon Sunrise salve!",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3007,
+                        "Description": "1 oz. Lemon Sunrise Double Strength Salve - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3008,
+                        "Description": "2 oz. Lemon Sunrise Double Strength Salve - 500 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2005,
+                "ProductName": "Classic Double Strength Salve",
+                "Description": "Our all-around, go-to salve! Containing anti-inflammatory peppermint and circulatory-promoting ginger essential oils, this Classic formula also boasts uplifting notes of frankincense, clary sage, and cypress. Frankincense has traditionally been used for relieving depression and anxiety, while also stimulating the immune system and relieving stress and pain. Clary Sage is known for its anti-depressant, anti-inflammatory, and stress relieving properties, while cypress is known for helping relieve anxiety, insomnia, cramping, muscle pulls, and even restless leg syndrome \u2013 also increasing blood circulation and easing aches and pains. With double the CBD and a quintet of powerhouse healing oils, our Classic Double Strength salve will help keep your body tuned up and ready to go!",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3009,
+                        "Description": "1 oz. Classic Double Strength Salve - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3010,
+                        "Description": "2 oz. Classic Double Strength Salve - 500 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2006,
+                "ProductName": "Lavender Flower Double Strength Salve",
+                "Description": "Lavender has been a beloved essential oil for centuries because of its remarkable healing and soothing properties. Vermont Green Magic\u2019s Double Strength CBD Lavender Flower salve promotes relief from headaches, muscle and joint pain, and is a good choice for use before bedtime due to its calming and sedative properties. Naturally antibiotic, antiseptic, and detoxifying, lavender is also known to stimulate the immune system while simultaneously acting as a reliever of anxiety, stress, headaches, insomnia, and depression. Our Double Strength CBD Lavender Flower salve is a great choice for folks wanting effective and calming CBD relief.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3011,
+                        "Description": "1 oz. Lavender Flower Double Strength Salve - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3012,
+                        "Description": "2 oz. Lavender Flower Double Strength Salve - 500 mg CBD"
+                    }
+                ]
+            },
+            {
+                "ProductId": 2007,
+                "ProductName": "Spicy Ginger Double Strength Salve",
+                "Description": "Our most popular seller! This Double Strength CBD salve stars a winning trio of ginger, cinnamon, and clove essential oils known for their powerful circulatory-promoting and pain-relieving benefits. Each of these oils has its own arrangement of beneficial compounds, which, when combined, come together in a mysterious synergy of natural potency to help improve circulation, soothe muscle and joint pain, boost immunity, and relieve stress, depression, anxiety, fatigue, arthritis, and chronic pain. Customers love our Double Strength Spicy Ginger Formula \u2013 see what it can do for you!",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3013,
+                        "Description": "1 oz. Spicy Ginger Double Strength Salve - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3014,
+                        "Description": "2 oz. Spicy Ginger Double Strength Salve - 500 mg CBD"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryId": 1002, 
+        "CategoryName": "Oils",
+        "Description": "NEED DESCRIPTION",
+        "Image": "",
+        "Items":[
+            {
+                "ProductId": 3001,
+                "ProductName": "Regular Strength Therapeutic Oil",
+                "Description": "Therapeutic CBD oil is designed to be taken internally, either by itself or in conjunction with CBD salves for increased effect and potency. When taken internally, CBD has been known to relieve a wide range of issues including insomnia, anxiety, headaches, muscle and joint pain, and even cancer (see \u201CWhat is CBD?\u201D for further information).\r\n\r\nVermont Green Magic Therapeutic Oil drops are crafted in very small batches over wood-fired heat during a gentle, two-day extraction process and have only two natural ingredients: whole plant CBD, and high-quality mild olive oil (organic coconut oil is available as an option for those who prefer it).\r\n\r\nOur full-spectrum Regular Strength formula is a good choice for folks who are sensitive to CBD or who have mild to moderate pain or insomnia. It is also a good choice for people who are interested in taking CBD preventatively, in order to support general health and nervous system function.\r\n\r\nOur full-spectrum Double Strength formula contains twice the CBD milligram count and is thus the better option for individuals who have stronger or more persistent issues, or for those who seem to require higher doses of CBD.\r\n\r\nIt is important to remember that many commercial CBD products tend to contain lab-isolated CBD, which has been industrially processed and isolated from the multitude of other beneficial cannabinoids naturally available in the hemp plant. Because the CBD cannabinoid itself has such a high profile of healing benefits, taking it in the form of isolate is still beneficial. However, isolated and commercially processed CBD will not be as naturally beneficial and available to the body as a product containing whole-plant, full-spectrum CBD \u2013 complete with its dozens of other beneficial cannabinoids, all of which have important benefits for the human body (and many of which are still being discovered). At Vermont Green Magic, all our products contain the highest quality full-spectrum CBD, for we believe the hemp plant has much more to offer than just one or two cannabinoids.\r\n\r\nDosage and Use\r\n\r\nEveryone\u2019s body is different. Thus, we encourage people to experiment in order find the dosage of CBD that is optimal for them. However, studies show that CBD tends to work best when it builds up in the body, and therefore we recommend at least taking CBD daily in both the morning and evening. The drops may be taken with food but may also be taken on their own.\r\n\r\nIf this is your first time taking CBD therapeutic oil, start out with 3 drops under the tongue. If after a few minutes you don\u2019t feel any change, try taking about 3 more. Then, taking 5-6 drops under the tongue in the morning and evening is recommended (though more may be taken, and more often, for persistent or more acute issues).\r\n\r\nJust as with many other naturally-based products, our Therapeutic Oils and salves are unfiltered. Because we use the whole plant rather than lab-processed isolate, it is normal to find occasional, tiny particles of CBD material in our products.",       
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3015,
+                        "Description": "Regular Strength Therapeutic Oil - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3016,
+                        "Description": "Regular Strength Therapeutic Oil - 500 mg CBD"
+                    },
+                    {
+                        "SizeId": 3017,
+                        "Description": "Double Strength Therapeutic Oil - 500 mg CBD"
+                    },
+                    {
+                        "SizeId": 3018,
+                        "Description": "Double Strength Therapeutic Oil - 1000 mg CBD"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryId": 1003, 
+        "CategoryName": "Sports Specific",
+        "Description": "NEED DESCRIPTION",
+        "Image": "",
+        "Items":[
+            {
+                "ProductId": 4001,
+                "ProductName": "Sports Specific",
+                "Description": "The Winner\u2019s Cup of salves! Revitalizing TitleHolder Super CBD Rub was especially formulated for our friends at Granite City MMA in Montpelier, VT, who needed a no-nonsense, high performance cooling and pain-relieving salve to use following their intense workouts. Containing eucalyptus, wintergreen, peppermint, and pine essential oils, you\u2019d be hard-pressed to find a CBD salve that packs this kind of punch when it comes to rejuvenating relief. TitleHolder Super CBD Rub is recommended to be used in combination with TitleHolder Therapeutic Oil for maximum benefit. TitleHolder is the athlete\u2019s friend!",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3019,
+                        "Description": "1 oz. Super CBD Rub - 250 mg CBD"
+                    },
+                    {
+                        "SizeId": 3020,
+                        "Description": "2 oz. Super CBD Rub - 500 mg CBD"
+                    },
+                    {
+                        "SizeId": 3021,
+                        "Description": "1 oz. Therapeutic Oil - 500 mg CBD"
+                    },
+                    {
+                        "SizeId": 3022,
+                        "Description": "2 oz.Therapeutic Oil - 1000 mg CBD"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "CategoryId": 1004, 
+        "CategoryName": "Plant Nutrients",
+        "Description": "NEED DESCRIPTION",
+        "Image": "",
+        "Items":[
+            {
+                "ProductId": 5001,
+                "ProductName": "Bloom Dazzler",
+                "Description": "Bloom Dazzler has a perfectly balanced nutrient spectrum, containing everything your plants require during their flowering cycle, but even more: we\u2019ve also added a broad array of microbes that continuously keep breaking down complex compounds into bio-available plant food.\r\n\r\nContrary to popular belief and internet hoopla (unsupported by real trials), cannabis plants need a balanced fertilizer throughout their life cycle, including during flowering. Many nutrient companies lead people to believe that excessive phosphorous will result in higher yields; unfortunately, super-high levels of phosphates (aside from being harmful to the earth) are lethal to crucial soil microbes and bacteria. Not only does our balanced Bloom Dazzler give plants the nitrogen necessary for increased growth, but more importantly, it gives your plants the necessary potassium for bulking up flowers, and increasing root production during this time.\r\n\r\nNew root production throughout the flowering cycle means that calcium \u2013 only absorbed by newly advancing root tips \u2013 can more readily be taken up by the plant. Calcium is necessary for stronger cell wall structure and increased overall growth and support, but even more importantly: without calcium, other nutrients are less mobile throughout the plants, and become therefore less available. Calcium helps in the metabolizing of all other nutrients \u2013 it is that important.   \r\n\r\nBloom Dazzler is both a balanced and enriched nutrient for your plants, but we also know that dazzlingly high microbe levels can contribute to as much as 15% greater yields, so our addition of a varied microbe spectrum and your home-brewing cycle is what truly sets it apart from the rest.\r\n\r\nBy mixing a tablespoon of sugar, molasses, or honey into a gallon of water containing Bloom Dazzler and allowing it to sit for 24 hours, microbes will have multiplied into the millions. We push the limits of balanced nutrition with highly activated microorganisms into a brew that delivers an instant rush of energy into your plants. The day after using Bloom Dazzler (especially in a contained indoor environment), you will notice a marked increase in terpene aromas. A little goes a long way, so resist over feeding!\r\n\r\nAdminister regularly during blooming cycle. Vermont Green Magic: put a little Magic in your Green.\r\n\r\nBloom Dazzler plant nutrients are supplementally enriched with mealworm frass, locally raised several towns over from us by the good folks at Vermont Mealworm Farm. In our trials, we were very impressed with the boost in vigor and vitality that our plants showed after adding the frass. We also observed greater upward growth with a stronger supporting and branching framework. The chitin in the frass combined with the silica from our Mineral Bliss Plant Ferment aided our plants in creating stronger cell walls. Stronger cell walls make for stronger branches, which are then able to support huge crops!     \r\n\r\nContains: Deep Woods Composted Tea*, Mineral Bliss Plant Ferment*, liquid bone meal, mealworm frass, leonardite, K2SO4, cal\/mag supplement, kelp, bacterial inoculant. Caution: Contents come under pressure during brewing cycle.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3023,
+                        "Description": "8 oz. Bloom Dazzler - $14"
+                    },
+                    {
+                        "SizeId": 3024,
+                        "Description": "16 oz. Bloom Dazzler - $22"
+                    }
+                ]
+            },
+            {
+                "ProductId": 5002,
+                "ProductName": "Kelpie GreenLove",
+                "Description": "It starts with the purest of real spring water. Then we add a variety of plants known for their bio-activating, growth-stimulating, mineral-rich and enzymatically active properties \u2013 such as silica-packed stinging nettles and deep rooted, growth-activating yarrow \u2013 allowed to ferment into a pungent, chloro-phylled living brew.\r\n\r\nNext, we add enormous amounts of certified organic kelp, boosting micro nutrients and trace minerals and giving your plants that sparkle of vitality. Kelpie GreenLove is an enhanced kelp product. Used regularly, it will increase lateral root development, giving your plants greater root uptake capacity.\r\n\r\nAs a foliar spray, Kelpie GreenLove increases mineral concentration in plant cells and breaks apical dominance, creating more budding sites during vegetative growth. For foliar-feeding, mix a 1\/2 teaspoon into your purest water. Mix well and spray leaves liberally. Put a little Magic in your Green.\r\n\r\nOur kelp begins its life floating around in the mineral-rich ocean, absorbing sunlight and minerals whose names we can barely pronounce \u2013 all vital for soil health and plant growth. For centuries, mermaids were believed to bring kelp to rocky shores, and farmers gathered this magical bounty to use on their fields in order to increase yields.\r\n\r\nUsing kelp regularly has numerous benefits. Kelp contains trace minerals not found on land but which are vital to certain plant functions, plus growth-stimulating hormones (such as auxin and cytokinin) that keep plants at their optimal growth. Known as a root-growth stimulator, kelp increases lateral root development for greater nutrient uptake.\r\n\r\nUse a ratio of two parts Deep Woods Brew to one part Kelpie GreenLove during the vegetative or growth stage to help protect plants from insect and fungal stress. When used regularly, watering with this ratio will provide both B vitamins and trace elements from the humates in the Deep Woods Brew, and hormones from the kelp that will synergistically combine together to make unique protective compounds for your plants.\r\n\r\nWe also added a potassium supplement for increasing root growth and overall yield, sulfur to assist in plant protein production, and magnesium for chlorophyll synthesis and support of bloom production.\r\n\r\nWhen used according to label instructions for foliar feeding, the compounds in Kelpie GreenLove will provide a dilute trace mineral boost while breaking apical dominance, reducing stretching, and increasing lateral branching.\r\n\r\nIn keeping with this ages-old mermaid tradition, we at Vermont Green Magic gather the purest water, source the best organic kelp, and slow-brew our nutrient into the finest kelp product found on land or sea! Vermont Green Magic: put a little Magic in your Green.\r\n\r\nContains: Mineral Bliss Plant Ferment*, organic kelp, K2SO4, magnesium sulfate. Baseline analysis: 0-0-2 + trace minerals.\r\n\r\n",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3025,
+                        "Description": "8 oz. Kelpie GreenLove - $10"
+                    },
+                    {
+                        "SizeId": 3026,
+                        "Description": "16 oz. Kelpie GreenLove - $16"
+                    }
+                ]
+            },
+            {
+                "ProductId": 5003,
+                "ProductName": "Deep Woods Brew",
+                "Description": "An all stage, growth-enhancing, soil-fortifying, nutrient-supporting, enzyme-rich super brew! Season after season tested with real trials and amazing results. Bring all the good stuff to your soil or container. Jampacked with perfectly balanced, completely bio-available nutrients.\r\n\r\nLet no soil be dead! Deep Woods Brew is a balanced, mineral-rich powerhouse full of the rich humic and fulvic acids known for enhancing growth and strengthening resistance against disease and pests. Deep Woods Brew brings the FUNK!\r\n\r\nWhen used during the growing cycle, Deep Woods Brew will enrich and liven your indoor or outdoor garden with deeply composted teas to keep high-energy plants healthy and strong. Put a little Magic in your Green.\r\n\r\nDeep Woods Brew is supplementally enriched with mealworm frass, locally raised several towns over from us by the good folks at Vermont Mealworm Farm. In our trials, we were very impressed with the boost in vigor and vitality that our plants showed after adding the frass. We also observed greater upward growth with a stronger supporting and branching framework. The chitin in the frass combined with the silica from our Mineral Bliss Plant Ferment aided our plants in creating stronger cell walls. Stronger cell walls make for stronger branches, which are then able to support huge crops! Vermont Green Magic: put a little Magic in your Green.\r\n\r\n*Deep Woods Brew is an extremely pungent and potent product. It is best not used during the later stages of the flowering cycle as it may contribute unwanted flavors.\r\n\r\nContains: Deep Woods Compost Tea*, Mineral Bliss Plant Ferment*, mealworm frass, K2SO4, leonardite, magnesium, kelp. Baseline analysis: 2-2.5-4 with trace minerals + humic & fulvic acids.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3027,
+                        "Description": "8 oz. Deep Woods Brew - $10"
+                    },
+                    {
+                        "SizeId": 3028,
+                        "Description": "16 oz. Deep Woods Brew - $16"
+                    }
+                ]
+            },
+            {
+                "ProductId": 5004,
+                "ProductName": "Tasty Harvest",
+                "Description": "Finally, a nutrient solution prepared specifically for the final stages of flower production! You\u2019ve watered, you\u2019ve pinched, trained, pruned, fertilized, and everything else, and now comes the most delicate and important stretch. Botrytis molds lurk at every turn, and a heavy fertilizing hand also threatens to change sweet-tasting flowers into uninspiring, chemical-tasting \u201Cshwag\u201D.\r\n\r\nWe developed Tasty Harvest to help the grower fight late season pathogens, and to help plants fully ripen. This is the time to increase oil and terpene production, add final weight, and purge the flowers of all pungent fertilizer scents and tastes.\r\n\r\nOur Mineral Bliss Plant Ferment, in combination with bloom-supporting magnesium and sugar-producing sulfur, helps ripen and harden your flower buds in the final weeks. Since spraying is not an option during this time, a specially chosen, ultra-pure essential oil blend is added to systemically protect your plants from pathogens from the inside out. This blend is transported from the roots throughout the entire plant in just a few hours. Plus, it smells nice!\r\n\r\nTasty Harvest will give you rock-hard, delicious-smelling flowers that taste exactly like they\u2019re supposed to. Use every time you water right up till harvest.\r\n\r\nWhen finishing, all other fertilization should cease and plants should be exclusively given Tasty Harvest, which has everything needed to bring your harvest to its healthy maximum \u2013 bursting with oils and terpenes. Finish off your grow season with a bang! Vermont Green Magic: put a little Magic in your Green.\r\n\r\nContains: Spring water, Mineral Bliss Plant Ferment*, molasses, kelp, K2SO4, microbe blend inoculant, essential oil blend.",
+                "Image": "",
+                "AvailableSizes": [
+                    {
+                        "SizeId": 3029,
+                        "Description": "8 oz. Tasty Harvest - $10"
+                    },
+                    {
+                        "SizeId": 3030,
+                        "Description": "16 oz. Tasty Harvest - $13 SALE (Down from $16)"
+                    }
+                ]
+            }
+        ]
+    }   
+]
