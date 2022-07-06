@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes, HashRouter } from 'react-router-dom';
 import HomePageContainer from './pages/HomePageContainer';
-import AboutPageContainer from './pages/AboutPageContainer';
+import ContactPageContainer from './pages/ContactPageContainer';
 import TestimonialsContainer from './pages/TestimonialsContainer';
 import ProductListPageContainer from './pages/ProductListPageContainer';
 import CbdPageContainer from './pages/CbdPageContainer';
@@ -26,7 +26,10 @@ function App() {
                             path="/testimonials"
                             element={<TestimonialsContainer />}
                         />
-                        <Route path="/about" element={<AboutPageContainer />} />
+                        <Route
+                            path="/contact"
+                            element={<ContactPageContainer />}
+                        />
                         <Route path="/cbd" element={<CbdPageContainer />} />
                         <Route
                             path="/nutrient-brewing"

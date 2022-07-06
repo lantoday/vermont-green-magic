@@ -41,7 +41,9 @@ function NavbarComponent() {
                                     Nutrient Brewing
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href={baseURL + 'about'}>About</Nav.Link>
+                            <Nav.Link href={baseURL + 'contact'}>
+                                Contact us
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
