@@ -10,7 +10,7 @@ export const FooterComponent: React.FC = () => (
         <div className="footer_container">
             <p className="text-start m-1 opacity-50 fw-bold">Follow us on:</p>
             {/* TODO Need to get correct link */}
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between pb-3">
                 <div>
                     <a
                         href="https://twitter.com/coderlan_?ref_src=twsrc%5Etfw"

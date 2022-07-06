@@ -4,11 +4,10 @@ import sara02 from '../../images/testimonials/sara02.png';
 import threeTests from '../../images/testimonials/tests.png';
 import ginny from '../../images/testimonials/ginny.png';
 import kysa from '../../images/testimonials/kysa.png';
-import './TestimonialsComponent.scss';
 
 export const TestimonialsComponent: React.FC = () => (
     <>
-        <p className="testimonials_title">Testimonials</p>
+        <p className="page_title">Testimonials</p>
         <div>
             {/* Sara M. */}
             <img

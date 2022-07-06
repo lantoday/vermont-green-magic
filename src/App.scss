@@ -13,3 +13,18 @@
       box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 0 30px -4px rgba(201, 206, 211, 0.8), -12px 0 30px -4px rgba(201, 206, 211, 0.8);
   }
 }
+
+.page_title{
+  font-weight: bold;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: $screen-md) {
+      font-size: 26px;       
+  }
+
+  @media (min-width: $screen-md) {
+      font-size: 48px;
+  }
+}
