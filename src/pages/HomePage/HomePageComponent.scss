@@ -1,5 +1,43 @@
-@import './variables';
+@import '../../variables';
 
-.content_description{
-    color: #9a5b5b;
+.title_red{
+    color: $red-color;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title_green{
+    color: $green-color;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+.title_blue{
+    color: $blue-color;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn_view_product{
+    background-color: $blue-color !important;
+    border: 0px !important;
+    color: aliceblue !important;
+    font-weight: bold !important;
+}
+
+.title{
+    @media (max-width: $screen-md) {
+        font-size: 14px;
+    }
+    @media (min-width: $screen-md) {
+        font-size: 24px;
+    }
+}
+
+.content_purple{
+    color: $purple-color;
+}
+
+.content_green{
+    color: $green-color;  
 }
