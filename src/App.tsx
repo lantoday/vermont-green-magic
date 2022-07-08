@@ -6,6 +6,7 @@ import TestimonialsContainer from './pages/TestimonialsContainer';
 import ProductListPageContainer from './pages/ProductListPageContainer';
 import CbdPageContainer from './pages/CbdPageContainer';
 import NutrientPageContainer from './pages/NutrientPageContainer';
+import GalleryPageContainer from './pages/GalleryPageContainer';
 import NavbarComponent from './shared/Navbar/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
@@ -34,6 +35,10 @@ function App() {
                         <Route
                             path="/nutrient-brewing"
                             element={<NutrientPageContainer />}
+                        />
+                        <Route
+                            path="/gallery"
+                            element={<GalleryPageContainer />}
                         />
                     </Routes>
                 </div>

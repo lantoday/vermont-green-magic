@@ -1,7 +1,7 @@
 import { GalleryPageComponent } from './GalleryPage/GalleryPageComponent';
 import { FooterComponent } from '../shared/Footer/FooterComponent';
 
-function ContactPageContainer() {
+function GalleryPageContainer() {
     return (
         <>
             <div>
@@ -12,4 +12,4 @@ function ContactPageContainer() {
     );
 }
 
-export default ContactPageContainer;
+export default GalleryPageContainer;
