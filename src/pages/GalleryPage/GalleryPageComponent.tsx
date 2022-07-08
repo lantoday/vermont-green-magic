@@ -112,7 +112,6 @@ export const GalleryPageComponent: React.FC = () => (
                 />
             </div>
 
-            {/*  */}
             <Image
                 src={Gallery09}
                 fluid

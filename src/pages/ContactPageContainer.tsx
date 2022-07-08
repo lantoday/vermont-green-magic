@@ -1,11 +1,11 @@
-import { GalleryPageComponent } from './GalleryPage/GalleryPageComponent';
+import { ContactPageComponent } from './ContactPage/ContactPageComponent';
 import { FooterComponent } from '../shared/Footer/FooterComponent';
 
 function ContactPageContainer() {
     return (
         <>
             <div>
-                <GalleryPageComponent />
+                <ContactPageComponent />
                 <FooterComponent />
             </div>
         </>
