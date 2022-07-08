@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vermont-green-magic/static/css/main.47d680dc.css",
-    "main.js": "/vermont-green-magic/static/js/main.744fb095.js",
+    "main.js": "/vermont-green-magic/static/js/main.e744dcc1.js",
     "static/js/787.6d6d3683.chunk.js": "/vermont-green-magic/static/js/787.6d6d3683.chunk.js",
     "static/media/heading5.png": "/vermont-green-magic/static/media/heading5.c79316b101f8b73bdac0.png",
     "static/media/heading4.png": "/vermont-green-magic/static/media/heading4.ff204c088bd06e7b28ad.png",
@@ -9,6 +9,7 @@
     "static/media/heading2.png": "/vermont-green-magic/static/media/heading2.67649fa682fe78fe0115.png",
     "static/media/gallery18.png": "/vermont-green-magic/static/media/gallery18.08489dffacb3ca99770e.png",
     "static/media/heading3.png": "/vermont-green-magic/static/media/heading3.394307ec25eba66e08aa.png",
+    "static/media/bg.png": "/vermont-green-magic/static/media/bg.300a8a7e8e074c4031ee.png",
     "static/media/gallery07.png": "/vermont-green-magic/static/media/gallery07.e5ae6fc461257589f459.png",
     "static/media/gallery09.png": "/vermont-green-magic/static/media/gallery09.6e3a06083e49eeb58e7a.png",
     "static/media/heading1.png": "/vermont-green-magic/static/media/heading1.cb90c3f738cfb213c698.png",
@@ -34,11 +35,11 @@
     "static/media/late.png": "/vermont-green-magic/static/media/late.a4a794312ae1afe6f595.png",
     "index.html": "/vermont-green-magic/index.html",
     "main.47d680dc.css.map": "/vermont-green-magic/static/css/main.47d680dc.css.map",
-    "main.744fb095.js.map": "/vermont-green-magic/static/js/main.744fb095.js.map",
+    "main.e744dcc1.js.map": "/vermont-green-magic/static/js/main.e744dcc1.js.map",
     "787.6d6d3683.chunk.js.map": "/vermont-green-magic/static/js/787.6d6d3683.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47d680dc.css",
-    "static/js/main.744fb095.js"
+    "static/js/main.e744dcc1.js"
   ]
 }
