@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Outlet } from 'react-router-dom';
 import './NavbarComponent.scss';
 
 function NavbarComponent() {
@@ -16,7 +17,7 @@ function NavbarComponent() {
                 className="navbar_wrapper"
             >
                 <Container>
-                    <Navbar.Brand href={baseURL}>
+                    <Navbar.Brand href={'/vermont-green-magic'}>
                         Vermont Green Magic
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -51,6 +52,7 @@ function NavbarComponent() {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <Outlet />
         </>
     );
 }
