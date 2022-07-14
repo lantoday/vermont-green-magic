@@ -8,7 +8,7 @@ export interface ContactUsProps {}
 export const ContactPageComponent: React.FC = (props) => {
     const sendEmail = (e: any) => {
         // e.preventDefault();
-
+        //TODO need to get those value from the form
         console.log('send email');
 
         // emailjs
@@ -34,11 +34,11 @@ export const ContactPageComponent: React.FC = (props) => {
                 <p className="page_title">Contact us</p>
                 <div className="container-fluid">
                     <div className="row p-2">
-                        <div className="col-6">
+                        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <ContactPageInfoComponent />
                         </div>
                         {/* Do I need contactUsModel here, it will be an empty form at the begining */}
-                        <div className="col-6">
+                        <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <ContactPageFormComponent
                                 {...props}
                                 contactUsModel={null}
