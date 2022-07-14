@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/vermont-green-magic/static/css/main.74c97255.css",
-    "main.js": "/vermont-green-magic/static/js/main.4e660827.js",
+    "main.js": "/vermont-green-magic/static/js/main.cd88e37e.js",
     "static/css/850.146a5f0c.chunk.css": "/vermont-green-magic/static/css/850.146a5f0c.chunk.css",
     "static/js/850.947eed83.chunk.js": "/vermont-green-magic/static/js/850.947eed83.chunk.js",
     "static/css/281.669cf881.chunk.css": "/vermont-green-magic/static/css/281.669cf881.chunk.css",
-    "static/js/281.e184d36e.chunk.js": "/vermont-green-magic/static/js/281.e184d36e.chunk.js",
+    "static/js/281.1ab8fa99.chunk.js": "/vermont-green-magic/static/js/281.1ab8fa99.chunk.js",
     "static/css/737.669cf881.chunk.css": "/vermont-green-magic/static/css/737.669cf881.chunk.css",
     "static/js/737.74f28e6f.chunk.js": "/vermont-green-magic/static/js/737.74f28e6f.chunk.js",
     "static/css/860.669cf881.chunk.css": "/vermont-green-magic/static/css/860.669cf881.chunk.css",
@@ -54,11 +54,11 @@
     "static/media/late.png": "/vermont-green-magic/static/media/late.a4a794312ae1afe6f595.png",
     "index.html": "/vermont-green-magic/index.html",
     "main.74c97255.css.map": "/vermont-green-magic/static/css/main.74c97255.css.map",
-    "main.4e660827.js.map": "/vermont-green-magic/static/js/main.4e660827.js.map",
+    "main.cd88e37e.js.map": "/vermont-green-magic/static/js/main.cd88e37e.js.map",
     "850.146a5f0c.chunk.css.map": "/vermont-green-magic/static/css/850.146a5f0c.chunk.css.map",
     "850.947eed83.chunk.js.map": "/vermont-green-magic/static/js/850.947eed83.chunk.js.map",
     "281.669cf881.chunk.css.map": "/vermont-green-magic/static/css/281.669cf881.chunk.css.map",
-    "281.e184d36e.chunk.js.map": "/vermont-green-magic/static/js/281.e184d36e.chunk.js.map",
+    "281.1ab8fa99.chunk.js.map": "/vermont-green-magic/static/js/281.1ab8fa99.chunk.js.map",
     "737.669cf881.chunk.css.map": "/vermont-green-magic/static/css/737.669cf881.chunk.css.map",
     "737.74f28e6f.chunk.js.map": "/vermont-green-magic/static/js/737.74f28e6f.chunk.js.map",
     "860.669cf881.chunk.css.map": "/vermont-green-magic/static/css/860.669cf881.chunk.css.map",
@@ -78,6 +78,6 @@
   },
   "entrypoints": [
     "static/css/main.74c97255.css",
-    "static/js/main.4e660827.js"
+    "static/js/main.cd88e37e.js"
   ]
 }
