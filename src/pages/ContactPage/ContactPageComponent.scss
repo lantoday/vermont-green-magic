@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.contactus_item{
+    @media (max-width: $screen-md) {
+        width: 100%;    
+    }
+  
+    @media (min-width: $screen-md) {
+        width: 50%;   
+    }
+}
