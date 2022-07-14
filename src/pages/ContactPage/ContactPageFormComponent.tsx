@@ -1,8 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Spinner } from '../../shared/Icons/Spinner';
 
 export type ContactUsModel = {
     fullName: any;
@@ -23,7 +21,7 @@ export const ContactPageFormComponent: React.FC<ContactUsFormProps> = (
 
     const textRows = 5;
     const maxLengthMessageCount = 2000;
-    const { register, handleSubmit } = useForm({
+    const { register, handleSubmit, formState } = useForm({
         shouldUseNativeValidation: true,
         mode: 'onSubmit',
         defaultValues: {
@@ -35,55 +33,60 @@ export const ContactPageFormComponent: React.FC<ContactUsFormProps> = (
 
     return (
         <>
-            <div>
+            <div className="container-fluid">
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    <Container fluid>
-                        <Row className="mt-3">
-                            <Col>
-                                <label htmlFor="fullName">Full name</label>
-                            </Col>
-                            <Col xs md lg="3">
-                                <input
-                                    id="fullname"
-                                    {...register('fullName', {
-                                        required: 'Full name is required.',
-                                    })}
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="mt-3">
-                            <Col>
-                                <label htmlFor="email">Email</label>
-                            </Col>
-                            <Col xs md lg="3">
-                                <input
-                                    id="fullname"
-                                    {...register('fullName', {
-                                        required: 'Full name is required.',
-                                    })}
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="mt-3">
-                            <Col>
-                                <label htmlFor="email">Message</label>
-                            </Col>
-                            <Col xs md lg="3">
-                                <textarea
-                                    placeholder="Leave your message here, maximum count is 2000"
-                                    maxLength={maxLengthMessageCount}
-                                    rows={textRows}
-                                    id="message"
-                                    {...register('message', {
-                                        required: 'Message is required.',
-                                    })}
-                                />
-                            </Col>
-                        </Row>
-                        <Row className="mt-3">
-                            <input type="submit" />
-                        </Row>
-                    </Container>
+                    <div className="row mt-3">
+                        <label className="col" htmlFor="fullName">
+                            Full name
+                        </label>
+                        <input
+                            className="col-8"
+                            id="fullname"
+                            {...register('fullName', {
+                                required: 'Full name is required.',
+                            })}
+                        />
+                    </div>
+
+                    <div className="row mt-3">
+                        <label className="col" htmlFor="email">
+                            Email
+                        </label>
+                        <input
+                            className="col-8"
+                            id="email"
+                            {...register('email', {
+                                required: 'Email is required.',
+                            })}
+                        />
+                    </div>
+
+                    <div className="row mt-3">
+                        <label className="col" htmlFor="message">
+                            Message
+                        </label>
+                        <textarea
+                            className="col-8"
+                            placeholder="Leave your message here, maximum count is 2000"
+                            maxLength={maxLengthMessageCount}
+                            rows={textRows}
+                            id="message"
+                            {...register('message', {
+                                required: 'Message is required.',
+                            })}
+                        />
+                    </div>
+                    <div className="row mt-3">
+                        <button
+                            type="submit"
+                            className="btn btn-dark btn-block mt-2 mb-5"
+                            disabled={formState.isSubmitting}
+                        >
+                            <span className="small">
+                                {formState.isSubmitting ? <Spinner /> : 'Save'}
+                            </span>
+                        </button>
+                    </div>
                 </form>
             </div>
         </>

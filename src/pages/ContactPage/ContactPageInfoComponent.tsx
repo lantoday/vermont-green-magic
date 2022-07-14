@@ -5,19 +5,20 @@ import { Phone } from '../../shared/Icons/Phone';
 
 export const ContactPageInfoComponent: React.FC = () => (
     <>
-        <div className="d-flex flex-wrap justify-content-center fs-4">
+        <div className="d-flex flex-wrap justify-content-center">
             <div>
-                <img className="w-100 p-2" src={contactimg} alt="Contact us" />
+                <img
+                    className="w-100 opacity-75"
+                    src={contactimg}
+                    alt="Contact us"
+                />
                 <div className="d-flex flex-column justify-content-center">
-                    <div className="d-flex p-2">
+                    <div className="d-flex mt-2">
                         <p>
                             <Email />
                             &nbsp;&nbsp;
                         </p>
-                        <a
-                            className="fs-4 fw-bold"
-                            href="mailto:someone@yoursite.com"
-                        >
+                        <a href="mailto:someone@yoursite.com">
                             vermontgreenmagic@gmail.com
                         </a>
                     </div>
@@ -26,7 +27,7 @@ export const ContactPageInfoComponent: React.FC = () => (
                             <Phone />
                             &nbsp;&nbsp;
                         </p>
-                        <p className="fs-4 fw-bold">+1 (802)-272-9247</p>
+                        <p>+1 (802)-272-9247</p>
                     </div>
                 </div>
             </div>

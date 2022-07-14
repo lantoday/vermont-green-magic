@@ -32,17 +32,19 @@ export const ContactPageComponent: React.FC = (props) => {
         <>
             <div className="p-3">
                 <p className="page_title">Contact us</p>
-                <div className="d-flex flex-wrap justify-content-center w-100">
-                    <div className="contactus_item">
-                        <ContactPageInfoComponent />
-                    </div>
-                    <div className="contactus_item">
-                        {/* Do I need contact us model here? it suppose to be an empty form */}
-                        <ContactPageFormComponent
-                            {...props}
-                            contactUsModel={null}
-                            onSubmit={sendEmail}
-                        />
+                <div className="container-fluid">
+                    <div className="row p-2">
+                        <div className="col-6">
+                            <ContactPageInfoComponent />
+                        </div>
+                        {/* Do I need contactUsModel here, it will be an empty form at the begining */}
+                        <div className="col-6">
+                            <ContactPageFormComponent
+                                {...props}
+                                contactUsModel={null}
+                                onSubmit={sendEmail}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
