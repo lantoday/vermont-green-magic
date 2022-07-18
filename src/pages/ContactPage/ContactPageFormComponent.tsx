@@ -83,7 +83,11 @@ export const ContactPageFormComponent: React.FC<ContactUsFormProps> = (
                             disabled={formState.isSubmitting}
                         >
                             <span className="small">
-                                {formState.isSubmitting ? <Spinner /> : 'Save'}
+                                {formState.isSubmitting ? (
+                                    <Spinner />
+                                ) : (
+                                    'Send message'
+                                )}
                             </span>
                         </button>
                     </div>

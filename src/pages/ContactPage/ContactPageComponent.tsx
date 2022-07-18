@@ -6,11 +6,16 @@ import { ContactPageFormComponent } from './ContactPageFormComponent';
 export interface ContactUsProps {}
 
 export const ContactPageComponent: React.FC = (props) => {
-    const sendEmail = (e: any) => {
-        // e.preventDefault();
-        //TODO need to get those value from the form
-        console.log('send email');
+    const sendEmail = async (data: any) => {
+        const fullName = data.fullName;
+        const email = data.email;
+        const message = data.message;
 
+        console.log(
+            `Send email(), full name : ${fullName}, email ${email}, message ${message}`
+        );
+
+        //TODO need to set up emailjs
         // emailjs
         //     .sendForm(
         //         'YOUR_SERVICE_ID',
@@ -37,7 +42,7 @@ export const ContactPageComponent: React.FC = (props) => {
                         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <ContactPageInfoComponent />
                         </div>
-                        {/* Do I need contactUsModel here, it will be an empty form at the begining */}
+
                         <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                             <ContactPageFormComponent
                                 {...props}
